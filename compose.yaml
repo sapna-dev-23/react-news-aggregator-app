@@ -1,0 +1,6 @@
+services:
+  frontend:
+    build: .
+    container_name: frontend_c
+    ports:
+      - '8000:8000'
